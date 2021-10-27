@@ -1,0 +1,60 @@
+﻿body {
+    background: url(world-architecture-festival-kris-yao.jpg);
+    background-size: 100% 100%;
+}
+
+h1 {
+    font-family: 'Arial Black';
+    text-shadow: 5px 3px 4px rgba(150, 150, 150, 1);
+}
+
+form {
+    top: 150px;
+    width: 370px;
+    height: 200px;
+    background: #E4E3DF;
+    border-radius: 15px;
+    position: relative;
+    margin: auto;
+    -webkit-box-shadow: 15px 10px 14px -3px rgba(34, 60, 80, 1);
+    -moz-box-shadow: 15px 10px 14px -3px rgba(34, 60, 80, 1);
+    box-shadow: 15px 10px 14px -3px rgba(34, 60, 80, 1);
+    border: 2px solid black;
+}
+
+.input_1 {
+    background: #C0C0C0;
+    border: 0.5px solid black;
+    margin: 7px;
+    border-radius: 15px;
+    width: 100%;
+    color: black;
+    font-family: 'Arial Black', Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 30px;
+    -webkit-box-shadow: 15px 10px 14px -3px rgba(34, 60, 80, 1);
+    -moz-box-shadow: 15px 10px 14px -3px rgba(34, 60, 80, 1);
+    box-shadow: 15px 10px 14px -3px rgba(34, 60, 80, 1);
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    text-align: center;
+}
+
+span {
+    line-height: 40px;
+    font-weight: bold;
+}
+
+input[type="file"] {
+    display: none; /* скрываем input file */
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}

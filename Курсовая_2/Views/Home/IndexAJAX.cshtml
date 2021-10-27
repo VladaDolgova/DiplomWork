@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "IndexAJAX";
+}
+
+@model Курсовая_2.Models.OpenedFile
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Вывод файла</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Dashboard Template · Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/dashboard/">
+
+    <link href="../../Content/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    @using (Ajax.BeginForm("Uploader", "Home", new AjaxOptions { OnSuccess = "OnSuccess" }, new { enctype = "multipart/form-data" }))
+    {
+        <input type="file" name="upload.UsersFile" id="uploadFile" class="form-control-file  col-md-3" data-filename-placement="inside" />
+        <br />
+        <div class="form-group col-md-12" style="padding-left: 15px;">
+            <button type="submit" class="btn btn-primary" name="submit" id="submit" onclick="Visible()">Отправить</button>
+        </div>
+    }
+    <br />
+    <div class="form-group col-md-12" style="padding-left: 15px;">
+        <form action="/Home/Statistics" method="get">
+            <button class="btn btn-info" id="stat" disabled>Посмотреть статистику</button>
+            <button class="btn btn-info" id="redac" disabled>Редактировать файл</button>
+        </form>
+    </div>
+    <br />
+    <div>
+        <table id="results" class="table table-striped table-sm table-dark"></table>
+    </div>
+
+    @section scripts{
+        <script type="text/javascript">
+            function OnSuccess(data) {
+                var results = $('#results');
+                var lines;
+                results.empty();
+                for (var i = 0; i < data.length; i++) {
+                    for (var j = 0; j < data[i].length; j++) {
+                        lines += ('<td>' + data[i][j] + '</td>');
+                    }
+                    results.append('<tr>' + lines + '</tr>');
+                    lines = null;
+                }
+            }
+            function Visible() {
+                document.getElementById("stat").removeAttribute("disabled");
+                document.getElementById("redac").removeAttribute("disabled");
+            }
+        </script>
+    }
+</body>
+</html>

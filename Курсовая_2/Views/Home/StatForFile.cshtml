@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "StatForFile";
+}
+
+@model Курсовая_2.Models.UploadFile
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Ввод полей</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/sign-in/">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet">
+    <link href="Uploading.css" rel="stylesheet">
+</head>
+<body class="text-center">
+    <div>
+        <form action="/Home/Statistics" method="post" enctype="multipart/form-data" role="form" class="form-signin">
+            <h1 class="h3 mb-3 font-weight-normal">Введите слово/символ</h1>
+            <div class="form-group offset-5" style="padding-right: 10px;">
+                <label for="symbols" class="sr-only">Файл</label>
+                <input type="text" name="symbols" id="symbols" class="form-control-file  col-md-3" data-filename-placement="inside" title="Введите слово\символ" required />
+            </div>
+            <div class="form-group col-md-12" style="padding-left: 15px;">
+                <button type="submit" class="btn btn-primary" name="submit">Количество</button>
+            </div>
+        </form>
+    </div>
+    <div>
+        @ViewBag.CountOfSymbols<br>
+        @ViewBag.CountOfRows<br>
+        @ViewBag.CountOfColumns<br>
+        @ViewBag.CountOfCells<br>
+    </div>
+</body>
+</html>
+
+
