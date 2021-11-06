@@ -107,6 +107,7 @@ C:/Users/Vlada/Documents/ДЛЯ УНИВЕРА/КУРСОВАЯ/Курсовая
 /Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 /Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/bin/Microsoft.Web.Infrastructure.dll
 /Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/bin/Newtonsoft.Json.dll
+/Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/bin/SautinSoft.ExcelToPdf.dll
 /Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/bin/System.Web.Helpers.dll
 /Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/bin/System.Web.Mvc.dll
 /Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/bin/System.Web.Optimization.dll
@@ -127,6 +128,7 @@ C:/Users/Vlada/Documents/ДЛЯ УНИВЕРА/КУРСОВАЯ/Курсовая
 /Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/bin/System.Web.WebPages.Deployment.xml
 /Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/bin/System.Web.WebPages.Razor.xml
 /Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/bin/Antlr3.Runtime.pdb
+/Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/bin/SautinSoft.ExcelToPdf.xml
 /Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/bin/ru/System.Web.Helpers.resources.dll
 /Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/bin/ru/System.Web.Mvc.resources.dll
 /Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/bin/ru/System.Web.Optimization.resources.dll
@@ -134,8 +136,8 @@ C:/Users/Vlada/Documents/ДЛЯ УНИВЕРА/КУРСОВАЯ/Курсовая
 /Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/bin/ru/System.Web.WebPages.resources.dll
 /Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/bin/ru/System.Web.WebPages.Deployment.resources.dll
 /Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/bin/ru/System.Web.WebPages.Razor.resources.dll
-/Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/obj/Debug/Курсовая_2.csproj.AssemblyReference.cache
 /Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/obj/Debug/Курсовая_2.csproj.CoreCompileInputs.cache
 /Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/obj/Debug/Курсовая_2.csproj.CopyComplete
 /Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/obj/Debug/Курсовая_2.0.dll
 /Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/obj/Debug/Курсовая_2.0.pdb
+/Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/obj/Debug/Курсовая_2.csproj.AssemblyReference.cache

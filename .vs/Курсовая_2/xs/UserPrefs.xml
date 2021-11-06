@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{712EAAAE-29AA-4565-974E-F537ADAACEEA}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Курсовая_2/Controllers/StreamReader.cs">
+    <Files>
+      <File FileName="Курсовая_2/Controllers/HomeController.cs" Line="102" Column="2" />
+      <File FileName="Курсовая_2/Views/_ViewStart.cshtml" />
+      <File FileName="Курсовая_2/Views/Home/IndexAJAX.cshtml" />
+      <File FileName="Курсовая_2/Models/OpenedFile.cs" />
+      <File FileName="Курсовая_2/Models/UploadFile.cs" />
+      <File FileName="Курсовая_2/Controllers/IFileReader.cs" />
+      <File FileName="Курсовая_2/Controllers/Statistic.cs" />
+      <File FileName="Курсовая_2/Controllers/StreamReader.cs" Line="14" Column="10" />
+      <File FileName="Курсовая_2/Views/Home/ViewBoot.cshtml" />
+      <File FileName="Курсовая_2/Views/Home/StatView.cshtml" />
+      <File FileName="Курсовая_2/Views/Home/StatForFile.cshtml" />
+      <File FileName="Курсовая_2/Controllers/GetFile.cs" />
+      <File FileName="Курсовая_2/Web.config" />
+      <File FileName="Курсовая_2/packages.config" />
+      <File FileName="../../../../../Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/bin/MSBuild/Current/bin/Microsoft.Common.CurrentVersion.targets" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Курсовая_2" expanded="True">
+            <Node name="Курсовая_2" expanded="True">
+              <Node name="References" expanded="True">
+                <Node name="System.Web.Entity" selected="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Курсовая__2 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/vlada.dolgova/Documents/STUDY/DiplomWork/Курсовая_2/Controllers/StreamReader.cs" relfile="Курсовая_2/Controllers/StreamReader.cs" line="14" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
