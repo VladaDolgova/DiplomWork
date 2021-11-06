@@ -11,13 +11,18 @@ namespace Курсовая_2.Controllers
     {
         public IEnumerable<string[]> Collector(string fileName)
         {
-            var sr = new StreamReader(fileName, Encoding.Default);
-            using (sr)
+            string extension = Path.GetExtension(fileName);
+            // читает txt и csv
+            if (extension != ".xlsx" && extension != ".xls")
             {
-                string line;
-                while ((line = sr.ReadLine()) != null)
+                var sr = new StreamReader(fileName, Encoding.Default);
+                using (sr)
                 {
-                    yield return line.Split(';');
+                    string line;
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        yield return line.Split(';');
+                    }
                 }
             }
         }
